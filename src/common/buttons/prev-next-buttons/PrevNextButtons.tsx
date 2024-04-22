@@ -1,6 +1,6 @@
 import { FC } from "react"
-import { BackIcon } from "../../../assets/icons/BackIcon"
-import { NextIcon } from "../../../assets/icons/NextIcon"
+import { BackIcon } from "../../icons/BackIcon"
+import { NextIcon } from "../../icons/NextIcon"
 import styles from './PrevNextButtons.module.css'
 
 type Props = {

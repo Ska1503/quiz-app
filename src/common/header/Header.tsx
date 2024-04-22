@@ -1,6 +1,6 @@
 import { FC } from "react";
-import { BackIcon } from "../../assets/icons/BackIcon"
-import { BurgerMenuIcon } from "../../assets/icons/BurgerMenuIcon";
+import { BackIcon } from "../icons/BackIcon"
+import { BurgerMenuIcon } from "../icons/BurgerMenuIcon";
 import styles from "./Header.module.css"
 
 type Props = {
