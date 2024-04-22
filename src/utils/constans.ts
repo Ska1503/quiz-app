@@ -1,4 +1,4 @@
-const drama = 'src/assets/drama.png'
+const drama = './src/assets/drama.png'
 const action = 'src/assets/action.png'
 const comedy = 'src/assets/comedy.png'
 const science = 'src/assets/science.png'
