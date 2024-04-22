@@ -1,0 +1,38 @@
+.input {
+    width: 100%;
+    border-radius: var(--border-radius);
+    outline: none;
+    border: 1px solid var(--secondary-bg-color);
+    margin-bottom: 5px;
+    padding: var(--padding);
+}
+
+.error {
+    outline: none;
+    border-color: var(--error-color);
+}
+
+.error:focus {
+    border-color: var(--error-color); 
+}
+
+input[type="text"] {
+    font-size:var(--fz-md);
+    font-family: 'Noto Sans', sans-serif;
+}
+
+input:focus {
+    border: 2px solid var(--primary-bg-color);
+}
+
+::placeholder {
+    font-size: var(--fz-md);
+    color: var(--secondary-bg-color);
+    font-weight: var(--font-weight-normal);
+    font-family: 'Noto Sans', sans-serif;
+}
+
+.errorMessage {
+    font-size: var(--fz-xs);
+    color: var(--error-color);
+}

@@ -1,0 +1,21 @@
+.button {
+    width: 100%;
+    max-width: 520px;
+    padding: var(--padding);
+    border-radius: var(--border-radius);
+    background-color:var(--primary-bg-color);
+    color: #fff;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    font-weight: var(--font-weight-bold);
+    font-size: var(--fz-md);
+    box-shadow: var(--shadow-button);
+}
+
+.disabled {
+    pointer-events: none;
+    cursor: default;
+    opacity: 0.5;
+}
+

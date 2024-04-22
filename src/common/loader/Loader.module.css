@@ -1,0 +1,15 @@
+.loader {
+  display: flex;
+  justify-content: center;
+  font-weight: var(--font-weight-bold);
+  font-size: var(--fz-lg);
+  animation: l1 1s linear infinite alternate;
+}
+
+.loader:before {
+  content:"Loading..."
+}
+
+@keyframes l1 {
+  to { opacity: 0 }
+}

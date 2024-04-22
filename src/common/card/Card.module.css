@@ -1,0 +1,28 @@
+.container {
+    margin: auto;
+    cursor: pointer;
+}
+
+.content {
+    text-align: center;
+}
+
+.content h3 {
+    font-size: var(--fz-md);
+}
+
+.checked {
+    border: 3px solid var(--primary-bg-color);
+    border-radius: var(--border-radius);
+}
+
+.content h3 {
+    margin: 0;
+}
+
+.img img {
+    width: 200px;
+    height: 300px;
+    box-shadow: var(--shadow-card);
+    border-radius: var(--border-radius);
+}

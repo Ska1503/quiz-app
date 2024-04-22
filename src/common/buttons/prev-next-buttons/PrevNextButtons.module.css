@@ -1,0 +1,23 @@
+.buttons {
+    display: flex;
+    align-items: center;
+    gap: 5px
+}
+
+.next {
+    cursor: pointer;
+}
+
+.back {
+    cursor: pointer;
+}
+
+.disabledBack {
+    opacity: 0.5;
+    pointer-events: none;
+}
+
+.disabledNext {
+    opacity: 0.5;
+    pointer-events: none;
+}

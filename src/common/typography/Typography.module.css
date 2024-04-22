@@ -1,0 +1,4 @@
+.text {
+    font-size: var(--fz-lg);
+    font-weight: var(--font-weight-bolder);
+}
